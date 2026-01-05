@@ -1,0 +1,144 @@
+@import 'tailwindcss';
+@import 'material-tailwind/react/tailwind.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Added classes */
+
+.chunks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chunk-row {
+  display: flex;
+}
+
+.chunk {
+  flex: 1;
+  margin: 5px;
+}
+
+/*
+.input-chunk {
+  background-color: #e6f7ff; 
+}
+
+.output-chunk {
+  background-color: #e6ffe6; 
+}*/
+
+.markdown-editor {
+  width: '50%';
+  margin: '5px';
+}
+
+.navigation-buttons-container {
+  box-shadow: 4px 0 0 2px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed; /* Fixed positioning makes the element stick to the specified position */
+  bottom: 0; /* Aligns the navigation bar at the bottom of the viewport */
+  left: 0; /* Ensures it spans from the left edge */
+  z-index: 1000; /* Ensures it stays above other content; you can adjust the value as necessary */
+}
+.nav-button {
+  min-width: 46%;
+}
+
+.variations-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.variation {
+  flex: 1;
+  margin: 5px;
+  width: '30%';
+}
+
+p {
+  max-width: 65ch;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1.1;
+}
+
+@keyframes dashOffset {
+  to {
+    stroke-dashoffset: -9999;
+  }
+}

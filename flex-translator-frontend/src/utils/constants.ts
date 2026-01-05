@@ -1,0 +1,1 @@
+export const DELIMITER = '\n\u241E\u241E\u241E\n';  // Separator for chunk translations

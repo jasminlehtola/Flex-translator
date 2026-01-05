@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-textPrimary: rgba(255, 255, 255, 0.87);
+  --color-textSecondary: #213547;
+  --color-textAccent: #646cff;
+
+  --color-success: oklch(62.7% 0.194 149.214);
+  --color-successHover: oklch(52.7% 0.154 150.069);
+
+  --color-backgroundPrimary: #242424;
+  --color-backgroundSecondary: #ffffff;
+  --color-backgroundTertiary: #364153;
+  --color-backgroundButton: #1a1a1a;
+
+  --color-linkHover: #535bf2;
+  --color-focus: rgba(0, 0, 0, 0.12);
+  --color-hover: rgba(0, 0, 0, 0.04);
+  --color-active: rgba(0, 0, 0, 0.87);
+  --color-selected: rgba(0, 0, 0, 0.08);
+  --color-disabled: rgba(0, 0, 0, 0.26);
+
+  --shadow-mainShadow: 4px 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  color-scheme: light dark;
+}
+* {
+  @apply border-gray-200 dark:border-gray-800;
+}
+body {
+  @apply bg-gray-50 text-gray-950 dark:bg-gray-900 dark:text-gray-200;
+}
