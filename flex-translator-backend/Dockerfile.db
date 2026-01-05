@@ -1,0 +1,10 @@
+FROM mysql:8.0
+
+# Copy custom MySQL configuration
+COPY db_config.cnf /etc/mysql/conf.d/db_config.cnf
+
+# Optional: add init scripts
+COPY mysql-init/ /docker-entrypoint-initdb.d/
+
+# Expose port
+EXPOSE 3306
