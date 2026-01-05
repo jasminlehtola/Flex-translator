@@ -1,5 +1,7 @@
 # Flex-Translator
-Flex Translator is a web app for translating documents using AI tools ChatGPT and DeepL. 
+Flex Translator is a web app for translating documents using AI tools ChatGPT and DeepL. The user can paste text or upload a file, apply custom prompts and dictionaries, and edit the translations manually before finalizing the document.
+
+This project uses a Vite + React + TypeScript frontend with Tailwind, React Query, and TanStack Router, and a Python (Flask) backend with SQLAlchemy, MySQL, JWT/OAuth authentication, and OpenAI/DeepL integrations.
 
 ---
 
