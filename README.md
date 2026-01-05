@@ -24,6 +24,15 @@ Two different translation options are generated. Select the one you prefer. Each
 
 <img width="1185" height="897" alt="image" src="https://github.com/user-attachments/assets/f67a0594-0f12-4f19-b695-bbfdbf62a175" />
 
+#### Toolbox:
+Prompts are specific commands that guide ChatGPT to produce a preferred translation style or outcome. To use a new prompt, add it and press the ON button to apply it.
+The Dictionary feature allows you to replace words with alternatives. Enter the word you want to change (in either English or Finnish) and specify the replacement word.
+If you no longer wish to use prompts or the dictionary, simply disable them by pressing the OFF button and removing the unwanted word from the list. Then click Translate again to apply the changes.
+
+<img width="1030" height="367" alt="image" src="https://github.com/user-attachments/assets/6bed2a19-979d-45dd-9996-48514a42b480" />
+
+<img width="1019" height="415" alt="image" src="https://github.com/user-attachments/assets/445d9fb2-30d6-43f8-8548-3126387a78c4" />
+
 ### Quick File Translation
 Quick File Translation is for fast and accurate PDF translations. It processes the file with DeepL, outputs a complete DOCX file, and allows you to save it as a PDF. The layout, text, and images remain in their original positions. The file is automatically downloaded to your computer. This is the most effective option for translating PDF files. Note! No editing options are available, and nothing is saved to your account. Ensure that the translated document is saved to your computer.
 
